@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-26T16:36:05 PST" name="Suite" finished-at="2023-11-26T16:37:31 PST" duration-ms="86324">
+    <groups>
+    </groups>
+    <test started-at="2023-11-26T16:36:05 PST" name="E2E Framework Test" finished-at="2023-11-26T16:36:35 PST" duration-ms="30085">
+      <class name="org.MehrdadHassani.Android.eCommerce_tc_4_Hybrid">
+        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:org.MehrdadHassani.Android.eCommerce_tc_4_Hybrid@7f552bd3]" started-at="2023-11-26T16:36:05 PST" name="ConfigureAppium" finished-at="2023-11-26T16:36:15 PST" duration-ms="9877" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureAppium -->
+        <test-method signature="FillForm(java.util.HashMap)[pri:0, instance:org.MehrdadHassani.Android.eCommerce_tc_4_Hybrid@7f552bd3]" started-at="2023-11-26T16:36:15 PST" name="FillForm" data-provider="getData" finished-at="2023-11-26T16:36:34 PST" duration-ms="18711" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{name=Mathroor, country=Albania, gender=female}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillForm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.MehrdadHassani.Android.eCommerce_tc_4_Hybrid@7f552bd3]" started-at="2023-11-26T16:36:34 PST" name="tearDown" finished-at="2023-11-26T16:36:35 PST" duration-ms="1097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.MehrdadHassani.Android.eCommerce_tc_4_Hybrid -->
+    </test> <!-- E2E Framework Test -->
+    <test started-at="2023-11-26T16:36:35 PST" name="Error Validation Test" finished-at="2023-11-26T16:37:01 PST" duration-ms="26138">
+      <class name="org.MehrdadHassani.Android.eCommerce_tc_1">
+        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:org.MehrdadHassani.Android.eCommerce_tc_1@4b0b0854]" started-at="2023-11-26T16:36:35 PST" name="ConfigureAppium" finished-at="2023-11-26T16:36:42 PST" duration-ms="6645" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureAppium -->
+        <test-method signature="FillForm_ErrorValidation()[pri:0, instance:org.MehrdadHassani.Android.eCommerce_tc_1@4b0b0854]" started-at="2023-11-26T16:36:42 PST" name="FillForm_ErrorValidation" finished-at="2023-11-26T16:37:00 PST" duration-ms="18679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillForm_ErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.MehrdadHassani.Android.eCommerce_tc_1@4b0b0854]" started-at="2023-11-26T16:37:00 PST" name="tearDown" finished-at="2023-11-26T16:37:01 PST" duration-ms="812" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.MehrdadHassani.Android.eCommerce_tc_1 -->
+    </test> <!-- Error Validation Test -->
+    <test started-at="2023-11-26T16:37:01 PST" name="IOS Test1" finished-at="2023-11-26T16:37:16 PST" duration-ms="14933">
+      <class name="org.MehrdadHassani.ios.IOSBasics1">
+        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:org.MehrdadHassani.ios.IOSBasics1@13e39c73]" started-at="2023-11-26T16:37:01 PST" name="ConfigureAppium" finished-at="2023-11-26T16:37:07 PST" duration-ms="6278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureAppium -->
+        <test-method signature="IOSBasicTest1()[pri:0, instance:org.MehrdadHassani.ios.IOSBasics1@13e39c73]" started-at="2023-11-26T16:37:07 PST" name="IOSBasicTest1" finished-at="2023-11-26T16:37:15 PST" duration-ms="7553" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IOSBasicTest1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.MehrdadHassani.ios.IOSBasics1@13e39c73]" started-at="2023-11-26T16:37:15 PST" name="tearDown" finished-at="2023-11-26T16:37:16 PST" duration-ms="1101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.MehrdadHassani.ios.IOSBasics1@13e39c73]" started-at="2023-11-26T16:37:16 PST" name="tearDown" finished-at="2023-11-26T16:37:16 PST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.MehrdadHassani.ios.IOSBasics1 -->
+    </test> <!-- IOS Test1 -->
+    <test started-at="2023-11-26T16:37:16 PST" name="IOS Test2" finished-at="2023-11-26T16:37:31 PST" duration-ms="15120">
+      <class name="org.MehrdadHassani.ios.IOSBasics2">
+        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:org.MehrdadHassani.ios.IOSBasics2@6580cfdd]" started-at="2023-11-26T16:37:16 PST" name="ConfigureAppium" finished-at="2023-11-26T16:37:22 PST" duration-ms="6088" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureAppium -->
+        <test-method signature="IOSBasicTest2()[pri:0, instance:org.MehrdadHassani.ios.IOSBasics2@6580cfdd]" started-at="2023-11-26T16:37:22 PST" name="IOSBasicTest2" finished-at="2023-11-26T16:37:30 PST" duration-ms="7892" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IOSBasicTest2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.MehrdadHassani.ios.IOSBasics2@6580cfdd]" started-at="2023-11-26T16:37:30 PST" name="tearDown" finished-at="2023-11-26T16:37:31 PST" duration-ms="1137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.MehrdadHassani.ios.IOSBasics2@6580cfdd]" started-at="2023-11-26T16:37:31 PST" name="tearDown" finished-at="2023-11-26T16:37:31 PST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.MehrdadHassani.ios.IOSBasics2 -->
+    </test> <!-- IOS Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
